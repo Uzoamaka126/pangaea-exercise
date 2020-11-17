@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 24px;
+  background-color: #fcfcfa;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 99;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navLeft a {
+  margin-left: 40px;
+}
+
+.navLeft > img {
+  height: 30px;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navRight a {
+  margin-right: 15px;
+  position: relative;
+}
+
+.navRight > a > img {
+  height: 20px;
+}
+.navRight > a > span {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+}

@@ -1,0 +1,15 @@
+.main {
+  background-color: #e1e6e1;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+.cover {
+  position: absolute;
+  left: 50%;
+}
